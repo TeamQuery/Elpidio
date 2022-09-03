@@ -16,7 +16,7 @@
   margin-right: 20px;
 }
 
-.displayImage>img {
+.displayImage {
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -24,15 +24,14 @@
 }
 
 
-
-.newUserItem > label {
+ label {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 600;
   color: rgb(151, 150, 150);
 }
 
-.newUserItem > input {
+ input {
   height: 50px;
   padding: 10px;
   border: 1px solid gray;
@@ -41,11 +40,11 @@
   
 }
 
-.newUserGender > input {
+ input {
   margin-top: 15px;
 }
 
-.newUserGender>label{
+label{
     margin: 10px;
     font-size: 18px;
     color: #555;

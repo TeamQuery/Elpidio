@@ -115,7 +115,7 @@ const handleSubmit = async (e) => {
     <div className="newUser">
 
       <h1 className="newUserTitle">Add New Project</h1>
-      <div className="row displayImage" style={{display:"flex"}}>
+      <div className="row " style={{display:"flex"}}>
             <img
               src={
                 file
@@ -123,6 +123,7 @@ const handleSubmit = async (e) => {
                   : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
               }
               alt=""
+              className="displayImage"
             />
 
                

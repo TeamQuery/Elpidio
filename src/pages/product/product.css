@@ -84,19 +84,19 @@
   flex-direction: column;
 }
 
-.productFormLeft > label {
+ label {
   margin-bottom: 10px;
   color: gray;
 }
 
-.productFormLeft > input {
+  input {
   margin-bottom: 10px;
   border: none;
   padding: 5px;
   border-bottom: 1px solid gray;
 }
 
-.productFormLeft >select{
+select{
   margin-bottom: 10px;
 }
 
