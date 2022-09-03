@@ -1,0 +1,392 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.About {
+   height: 100vh;
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background3.jpg');
+   background-position: center;
+   background-size: cover;
+   
+   
+}
+.About_big_heading {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   font-weight: bolder;
+   font-size: 70px;
+   padding-top: 250px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.About_small_navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+     margin-right: 100px;
+     font-size: 20px;
+     
+}
+
+.bigHeading {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    color: black;
+    line-height:40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* WELCOME */
+.welcome {
+  padding: 80px 0px;
+  background-color: #fafafa;
+}
+
+/* WHY CHOOSE US */
+.why_shoose_us {
+  padding: 80px 0px;
+}
+
+.deatails {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 40px auto auto auto;
+}
+
+.contacts{
+margin:20px 0px 0px 20px;
+padding:10px 30px;
+min-height: 40px !important;
+border-radius: 20px;
+background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+ 
+.phone {
+    position: absolute;
+    z-index: 1000;
+    margin: 45px auto auto 0px;
+     border: none; 
+    border-radius: 50%;
+    background-color: lawngreen;
+    color: #fff;
+    padding: 10px 13px;  
+}
+ 
+.mail {
+    position: absolute;
+    z-index: 1000;
+    margin: 45px auto auto 0px;
+     border: none; 
+    border-radius: 50%;
+    background-color: lawngreen;
+    color: #fff;
+    padding: 10px 13px;  
+}
+
+.signature{
+  display: 'flex';
+  justify-content: 'flex-end';
+  position: 'absolute';
+  margin: '-40px 0px 0px 400px';
+}
+
+
+/* HOW WE WORK */
+
+.stepper {
+  padding: 80px 0px;
+}
+
+.stepper-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.stepper-item {
+  position: relative;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+  color: lawngreen;
+}
+
+.stepper-item.active {
+  font-weight: bold;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: #000;
+}
+
+.stepper-item.completed::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid black;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  min-height: 300px;
+  background-color: #f4f7fb;
+  padding: 80px 0px;
+}
+
+.testimonialCard {
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+  margin: 10px 50px;
+  padding: 20px 30px 0px 30px;
+}
+.profile {
+  display: flex;
+}
+ 
+/* 
+MOBILE AND TABLET VIEW */
+@media screen and (max-width: 480px) {
+  .About {
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background3.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    
+    
+ }
+  .About_big_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 0px; 
+    padding-top: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ .About_small_navs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+   margin-right: 0px;
+   margin-top: 50px;
+   font-size: 20px;
+   
+}
+.bigHeading {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  color: black;
+  line-height:40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+
+
+
+.contacts{
+  margin:20px 0px 0px 20px;
+  padding:10px 30px;
+  min-height: 40px !important;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  }
+   
+  .phone {
+      position: absolute;
+      z-index: 1000;
+      margin: 45px auto auto 0px;
+       border: none; 
+      border-radius: 50%;
+      background-color: lawngreen;
+      color: #fff;
+      padding: 10px 13px;  
+  }
+   
+  .mail {
+      position: absolute;
+      z-index: 1000;
+      margin: 45px auto auto 0px;
+       border: none; 
+      border-radius: 50%;
+      background-color: lawngreen;
+      color: #fff;
+      padding: 10px 13px;  
+  }
+   .signature{
+   color: red;
+   margin: -40px 0px 0px 250px !important;
+  } 
+  .howdoweworkforyou {
+    font-size: 25px !important;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+
+
+  
+/* HOW WE WORK */
+
+.stepper {
+  padding: 80px 0px;
+}
+
+.stepper-wrapper {
+  margin-top: auto;
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0px 10px !important;
+}
+.stepper-item {
+  position: relative;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+
+.stepper-item::before {
+  display: none;
+}
+
+.stepper-item::after {
+  display: none;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+  color: lawngreen;
+}
+
+ 
+.stepper-item.completed .step-counter {
+  background-color: #000;
+}
+
+.stepper-item.completed::after {
+  display: none;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+.step-name {
+  font-size: 20px !important;
+  margin: 20px 0px 20px 0px !important;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonials {
+  min-height: 300px;
+  background-color: #f4f7fb;
+  padding: 80px 0px;
+}
+
+.testimonialCard {
+  width: 100%;
+  min-height: 150px;
+  background-color: #fff;
+  margin: 10px 0px;
+  padding: 20px 30px 0px 30px;
+}
+.profile {
+  display: flex;
+}
+.heading {
+     font-size: 20px !important;
+}
+ 
+
+}

@@ -1,0 +1,208 @@
+.Contacts {
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background3.jpg');
+    background-position: center;
+    background-size: cover;  
+  }
+
+  .Contacts_big_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 250px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  }
+
+  .Contacts_small_navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+     margin-right: 100px;
+     font-size: 20px;
+     
+ }
+
+ .Contacts_details {
+    padding: 80px 0px;
+ }
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    background: rgba(1, 14, 42, 0.031);
+
+  }
+
+  
+
+  input[type=submit] {
+    background-color: lawngreen;
+    color: white;
+    padding: 13px 43px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #fff;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+  }
+
+
+.contacts_lines{
+    margin:20px 0px 0px 20px;
+     padding:10px 30px !important;
+    min-height: 40px !important; 
+    
+    }
+
+    .phone {
+        position: absolute;
+        z-index: 1000;
+        margin: 45px auto auto 0px;
+         border: none; 
+        border-radius: 50%;
+        background-color: lawngreen;
+        color: #fff;
+        padding: 10px 13px;  
+    } 
+
+
+    .mailbutton {
+          display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      width: 300px;
+      border: none;
+      padding: 20px 50px;
+      background-color: #000 !important;
+      color: #fff;
+      font-size: 22px;
+
+    }
+    
+    .mailbutton:hover {
+          
+       background-color: lawngreen !important;
+       color: #000;
+
+    }
+
+
+    @media screen and (max-width: 480px) {
+      .Contacts {
+        height: 500px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background3.jpg');
+        background-position: center;
+        background-size: cover;  
+        
+      }
+    
+      .Contacts_big_heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        font-weight: bolder;
+        font-size: 35px;
+        padding-top: 50px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+      }
+    
+      .Contacts_small_navs {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #fff;
+         margin-right: 0px;
+         margin-top: 50px;
+         font-size: 20px;
+         
+     }
+    
+     .Contacts_details {
+        padding: 80px 0px;
+     }
+    
+     input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical ;
+        background: rgba(1, 14, 42, 0.031);
+    
+      }
+    
+      
+    
+      input[type=submit] {
+        background-color: red;
+        color: white;
+        padding: 13px 43px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+      }
+      
+     
+      input[type=submit]:hover {
+        background-color: #fff;
+        color: lawngreen;
+        border: 1px solid lawngreen;
+      }
+    
+    
+    .contacts_lines{
+        margin:20px 0px 0px 20px;
+         padding:10px 50px;
+        min-height: 40px !important; 
+        
+        }
+       
+        .phone {
+            position: absolute;
+            z-index: 1000;
+            margin: 45px 10px auto 20px;
+             border: none; 
+            border-radius: 50%;
+            background-color: lawngreen;
+            color: #fff;
+            padding: 10px 13px;  
+        } 
+
+
+        .contactSecondColumn {
+          margin: 0px !important;
+          padding: 0px !important;
+        }
+
+    }

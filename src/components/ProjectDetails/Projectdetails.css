@@ -1,0 +1,90 @@
+.Details {
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background3.jpg');
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+ .Details_big_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 250px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ .Details_small_navs {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+      margin-right: 100px;
+      font-size: 20px;
+      
+ }
+
+ 
+.credentials{
+   margin:20px 0px 0px 20px;
+   padding:10px 0px 10px 60px;
+   min-height: 40px !important;
+   border-radius: 10px;
+   background-color: #fff;
+   transition: 2;
+   }
+   
+.credentials:hover{ 
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+   
+   }
+    
+ .icons {
+   position: absolute;
+   z-index: 1000;
+   margin: 40px auto auto 30px;
+    border: none; 
+   border-radius: 50%;
+   background-color: lawngreen;
+   color: #fff;
+   padding: 10px 13px;  
+}
+ 
+
+ .content {
+    min-height: 500px;
+    padding: 80px 0px;
+ }
+
+ .Requirement {
+   background: rgba(1, 14, 42, 0.031);
+   padding: 50px 20px;
+   border-radius: 10px;
+ }
+
+
+
+
+ 
+.aims{
+   margin:20px 0px 0px 20px;
+   padding:10px 0px 10px 60px;
+   min-height: 40px !important;
+   border-radius: 10px;
+   background-color: #fff;
+   }
+    
+ .correct {
+   position: absolute;
+   z-index: 1000;
+   margin: 30px auto auto 0px;
+    border: none; 
+   background-color: #fff;
+   color: lawngreen;
+   padding: 10px 13px;  
+   font-size:20px ;
+}

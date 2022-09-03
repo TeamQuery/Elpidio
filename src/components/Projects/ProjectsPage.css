@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Project_gallery {
+  height: 100vh;
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background2.jpg');
+  /* background-position: center;
+  background-size: cover;  */
+  
+}
+.Projects_big_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-top: 250px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.Projects_small_navs {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+    margin-right: 100px;
+    font-size: 20px;
+    
+}
+   
+
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .Project_gallery {
+    height: 500px;
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('../../photos/background2.jpg');
+     background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;
+     
+  }
+  .Projects_big_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  }
+  .Projects_small_navs {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     color: #fff;
+      margin-right: 0px;
+      font-size: 20px;
+      
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*With Simple Caption*/
+/* 
+.Portfolio {
+  padding: 80px 0px;
+}
+.column#caption {
+    position: relative;
+  }
+  .column#caption .text {
+      position: absolute;   
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      opacity: 0;
+      transition: all 0.8s ease;      
+  }
+  .column#caption .text h1 {    
+      margin: 0;    
+      color: white;
+  }
+  .column#caption:hover .text {
+    opacity: 1;
+    
+  }
+  .column#caption:hover img {
+    -webkit-filter: sepia(90%);
+  }
+  
+  .frame {
+    text-align: center; 
+    position: relative;
+    cursor: pointer;  
+  
+  }
+  .frame img {
+    width: 300px;
+    height: 300px;
+  }
+  .frame .details {
+    width: 70%;
+    height: 100%;  
+    padding: 5% 8%;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    background: rgba(255,255,255,0.9);  
+    opacity: 0;
+    transition: all 0.6s ease-in;
+    
+  }
+  .frame:hover .details {
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+  } */
+
+  /*Zoom Out*/
+/* .frame img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.frame:hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+} */
+  
