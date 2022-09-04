@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import Logo from "../../photos/logo.jpg"
 
 const NavbarHome = () =>{
 
@@ -26,7 +27,7 @@ const NavbarHome = () =>{
           <span class="icon-bar"></span>
         </button>
          <a class="navbar-brand" href="Home.html">
-          Logo 
+         <img src={Logo} alt="Elpidio" style={{height:"30px", width:"30px", borderRadius:"10px"}}/>
         </a> 
        
       </div>

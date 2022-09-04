@@ -26,8 +26,8 @@ export default function Footer() {
                             <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
                             {/* <!--headin5_amrc--> */}
                             <ul class="footer_ul_amrc">
-                                <li><a href="http://webenlance.com">Link</a></li>
-                                <li><a href="http://webenlance.com">Link</a></li>
+                                <li><a href="http://webenlance.com">Instagram</a></li>
+                                <li><a href="http://webenlance.com">Youtube</a></li>
                                
                             </ul>
                             {/* <!--footer_ul_amrc ends here--> */}
@@ -38,8 +38,8 @@ export default function Footer() {
                             <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
                             {/* <!--headin5_amrc--> */}
                             <ul class="footer_ul_amrc">
-                                <li><a href="http://webenlance.com">Link</a></li>
-                                <li><a href="http://webenlance.com">Link</a></li>
+                                <li><a href="https://twitter.com/publicpersona3">twitter</a></li>
+                                <li><a href="https://github.com/RackspaceRhys/PublicPersonal">Github</a></li>
                                  
                             </ul>
                             {/* <!--footer_ul_amrc ends here--> */}
