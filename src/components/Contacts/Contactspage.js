@@ -20,17 +20,21 @@ function Contactspage() {
   const sendEmail = (e) => {
     return new Promise(resolve => {
       emailjs.sendForm('service_ncxcl3u', 'template_cvf7g5j', form.current, 'KwjJzA93tkjc7M3tg')
+     
       .then((result) => {
           console.log(result.text);
+          alert("Email Sent Seccessfuly")
+         
       }, (error) => {
           console.log(error.text);
       });
 
       setTimeout(() => {
           resolve();
+          
       }, 2000);
-
-      return false;
+        
+       return false;
   });
        
   };
@@ -48,10 +52,8 @@ function Contactspage() {
 
       <div className="container Contacts_details">
         <div className="col-md-6 col-sm-12 col-xs-12">
-          <h3>Reaquest A quote</h3>
-          <p>Lorem ipsum dolor sit amet, consectetu</p>
-
-
+          <h3>Talk with us</h3>
+      
           <form  ref={form} onSubmit={handleSubmit(sendEmail)}>
             <div className="row" style={{ display: 'flex', justifyContent:'space-evenly' }}>
               <input type="text" id="fname"  name="user_name" placeholder="Your name.." style={{ marginRight:'10px' }}/>
@@ -63,7 +65,7 @@ function Contactspage() {
             </div>
 
             <div className="row">
-              <textarea id="subject" name="message" placeholder="Write something.." ></textarea>
+              <textarea id="subject" name="message" placeholder="Comment.." ></textarea>
             </div>
 
             <div className="row" style={{display:"flex"}}>
@@ -81,30 +83,29 @@ function Contactspage() {
 
 
         <div className="col-md-6 col-sm-12 col-xs-12   contactSecondColumn" style={{padding:'0px 150px'}}>
-          <h3>Reaquest A quote</h3>
-          <p>Lorem ipsum dolor sit amet, consectetu</p>
+          
+       
           
           <div className="row">
              <div className="phone"><FaPhoneAlt /></div>
               <div className="contacts_lines">
                 <p>Phone :</p>
-                <p>+233 555078657</p>
-                <p>+233 555078657</p>
+                <p>+233 599022803</p>
+                <p>+233 204234859</p>
               </div>
           </div>
           <div className="row">
              <div className="phone"><FaMailBulk /></div>
               <div className="contacts_lines">
                 <p>Mail :</p>
-                <p>Epidio@gmail.com</p>
-                <p>Epidio@gmail.com</p>
+                <p>elpidiodate@gmail.com</p>
+                
               </div>
           </div>
           <div className="row">
              <div className="phone"><FaLocationArrow /></div>
               <div className="contacts_lines">
                 <p>Location :</p>
-                <p>Legon Campus</p>
                 <p>Legon Campus</p>
               </div>
           </div>

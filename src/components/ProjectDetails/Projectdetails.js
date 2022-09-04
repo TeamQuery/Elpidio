@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaPhoneAlt,} from 'react-icons/fa';
 import Footer from "../Footer/footer";
 import Details from "../../photos/details.png"
-import rightImage from "../../photos/background2.jpg"
+import rightImage from "../../photos/ourServices.jpg"
 import NavbarHome from "../Navbar/NavbarHome";
  
 
@@ -117,7 +117,10 @@ export default function Projectdetails() {
                 <div className="correct"><FaPhoneAlt /></div>
                 <div className="aims">
                   <p  style={{  color:'#000',fontSize:'20px', fontFamily:'sans-serif', fontWeight:'bold'}}>Knowledge & Experience</p>
-                  <p style={{color:'#676E7C', fontFamily:'sans-serif', fontSize:'15px'}}>Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry's standard.</p>
+                  <p style={{color:'#676E7C', fontFamily:'sans-serif', fontSize:'15px'}}>
+                    Knowledge and Experience: Using tools such as Adobe Illustrator, Adobe Photoshop and Adobe XD to create amazing UI/UX designs.
+                    With the help with HTML, CSS and JavaScript to implement the designs into website.
+                    </p>
                   <div>
                   </div>
                 </div>
@@ -127,21 +130,17 @@ export default function Projectdetails() {
                 <div className="correct"><FaPhoneAlt /></div>
                 <div className="aims">
                   <p  style={{  color:'#000',fontSize:'20px', fontFamily:'sans-serif', fontWeight:'bold'}}>Customer Focused</p>
-                  <p style={{color:'#676E7C', fontFamily:'sans-serif', fontSize:'15px'}}>Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry's standard.</p>
+                  <p style={{color:'#676E7C', fontFamily:'sans-serif', fontSize:'15px'}}>
+                  Customer Focused: We are aligned with the needs of our clients and offerings services and projects to enable them have an impact in the various areas of their fields
+
+                  </p>
                   <div>
                   </div>
                 </div>
               </div>
 
-              <div className="row">
-                <div className="correct"><FaPhoneAlt /></div>
-                <div className="aims">
-                  <p style={{  color:'#000',fontSize:'20px', fontFamily:'sans-serif', fontWeight:'bold'}}>Quality Sub-trades</p>
-                  <p style={{color:'#676E7C', fontFamily:'sans-serif', fontSize:'15px'}}>Porem Ipsum is simply dummy text of the printing and typesetting industry. Rosh has been the industry's standard.</p>
-                  <div>
-                  </div>
-                </div>
-              </div>
+              
+              
             </div>
 
 
